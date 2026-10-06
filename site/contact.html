@@ -1,5 +1,68 @@
 <!DOCTYPE html>
 <html>
-<head></head>
-<body></body>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio de Mohamed Aarab , apprenant développeur web.">
+    <title>Mohamed Aarab - Portfolio</title>
+
+  <!-- Police Inter (Google Fonts) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&amp;display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <!-- ========== EN-TÊTE ========== -->
+  <header class="en-tete">
+    <div class="conteneur en-tete__contenu">
+      <a class="logo" href="#presentation">Mohamed Aarab </a>
+      <nav aria-label="Navigation principale">
+        <ul class="menu">
+          <li><a href="#presentation">Présentation</a></li>
+          <li><a href="#competences">Compétences</a></li>
+          <li><a href="#projets">Projets</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- ========== CONTACT ========== -->
+    <section id="contact" class="section section--claire">
+      <div class="conteneur">
+        <h2>Contact</h2>
+        <p class="section__intro">Une question, une proposition ? Écrivez-moi.</p>
+
+        <form class="formulaire" action="#" method="post">
+          <label for="nom">Nom</label>
+          <input id="nom" name="nom" type="text">
+
+          <label for="email">E-mail</label>
+          <input id="email" name="email" type="text">
+
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="6"></textarea>
+
+          <button class="bouton" type="submit">Envoyer</button>
+        </form>
+
+        <ul class="reseaux">
+          <li><a class="lien" href="#">GitHub</a></li>
+          <li><a class="lien" href="#">LinkedIn</a></li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ========== PIED DE PAGE ========== -->
+  <footer class="pied">
+    <div class="conteneur">
+      <p>© 2026 Mohamed Aarab. Tous droits réservés.</p>
+    </div>
+  </footer>
+
+</body>
+
 </html>
