@@ -287,6 +287,10 @@ a {
 }
 label span{
   color: #EA2F32;
-font-size: 12px;
+  font-size: 12px;
 
+}
+.menu a.active{
+  font-weight: bold;
+  color: #EA2F32;
 }
